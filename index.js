@@ -13,9 +13,10 @@ dotenv.config();
 
 // Middleware
 app.use(cors({
-    origin: 'http://localhost:4200',
+    origin: 'https://fresh-backend-theta.vercel.app/',
     credentials: true
 }));
+
 app.use(express.json());
 app.use(cookieParser());
 
