@@ -13,7 +13,7 @@ dotenv.config();
 
 // Middleware
 app.use(cors({
-    origin: 'https://fresh-backend-theta.vercel.app/',
+    origin: 'https://fresh-frontend.vercel.app',
     credentials: true
 }));
 
