@@ -17,4 +17,4 @@ router.get('/getAll', getAllRoles)
 //Delete a role
 router.delete('/deleteRole/:id',deleteRole)
 
-module.exports = router;
+export default router;
