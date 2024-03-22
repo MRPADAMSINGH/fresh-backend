@@ -12,4 +12,4 @@ router.post("/send-email", sendEmail)
 //resetting the password
 router.post("/reset-password", resetPassword)
 
-export router;
+module.exports = router;
